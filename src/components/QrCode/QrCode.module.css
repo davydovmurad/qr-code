@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(105, 155, 25);
+}
+
+.text_input {
+  margin-bottom: 20px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  width: 800px;
+  height: 40px;
+  padding: 0 20px;
+  outline-color: rgb(105, 155, 25);
+  font-weight: bold;
+  color: inherit;
+}
+
+.button_generate_qr_code {
+  margin-bottom: 20px;
+  background: none;
+  border-radius: 5px;
+  padding: 15px;
+  border: 5px solid rgb(105, 155, 25);
+  font-size: 20px;
+  color: inherit;
+}
